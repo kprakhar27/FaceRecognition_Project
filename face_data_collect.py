@@ -3,7 +3,7 @@
 ## 3. Flatten the largest face image and save in a numpy array
 ## 4. Repeat the above for multiple people to generate training data
 
-#Import Libraries
+# Import Libraries
 import cv2
 import numpy as np
 
@@ -50,8 +50,8 @@ while True:
             face_data.append(face_section)
             print(len(face_data))
 
+    # Display the video output
     cv2.imshow('Frame', frame)
-    #cv2.imshow('Frame Section', face_section)
     
     # Wait for user input - q, then loop will stop
     key_pressed = cv2.waitKey(1) & 0xFF
