@@ -4,7 +4,6 @@ This project contains the code for an end-to-end face recognition model which wi
 ## Prerequisites
 This project requires Python 3 and the NumPy and OpenCV libraries
 
-
 ## Installation
 Use the below command to install the required libraries
 
